@@ -1,0 +1,16 @@
+/* 1. TEXT DECORATION */
+.link {
+  text-decoration: none;
+}
+
+.link2 {
+  text-decoration: overline;
+}
+
+.link3 {
+  text-decoration: underline;
+}
+
+.link4 {
+  text-decoration: line-through;
+}

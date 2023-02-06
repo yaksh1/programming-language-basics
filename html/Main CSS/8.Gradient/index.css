@@ -1,0 +1,45 @@
+/* OPACITY(rgba) */
+body {
+  background: rgba(1, 124, 255, 0);
+}
+
+/* SIMPLE LINEAR(top,bottom,right,left) */
+.divcontainer {
+  height: 150px;
+  width: 90%;
+  background: linear-gradient(
+    to right,
+    rgb(247, 37, 133),
+    rgba(247, 37, 133, 0)
+  );
+}
+
+/* DIAGONAL GRADIENT */
+.divgradient {
+  height: 150px;
+  width: 90%;
+  background: linear-gradient(
+    to top left,
+    rgb(9, 165, 238),
+    rgba(9, 165, 238, 0)
+  );
+}
+
+/* USING DEGREE */
+.degree {
+  height: 150px;
+  width: 90%;
+  background: linear-gradient(235deg, rgb(9, 238, 78), rgba(9, 235, 78, 0));
+}
+
+/* RADIAL GRADIENT */
+.radial {
+  height: 150px;
+  width: 90%;
+  background: radial-gradient(
+    circle,
+    rgb(0, 119, 182),
+    rgb(0, 180, 216),
+    rgb(144, 224, 239)
+  );
+}

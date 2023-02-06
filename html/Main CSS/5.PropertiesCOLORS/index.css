@@ -1,0 +1,17 @@
+/* selector {
+  property : value;
+  property2 : value2,; */
+body {
+  background: rgb(204, 229, 255);
+}
+.heading {
+  color: rgb(72, 12, 168);
+}
+
+.products {
+  color: rgb(67, 97, 238);
+}
+
+.subheading {
+  color: rgb(72, 149, 239);
+}

@@ -1,0 +1,28 @@
+/* TYPES */
+
+/* 1.COLOUR */
+
+/* body { 
+  background: rgb(204, 229, 255);
+}*/
+
+/* 2.GOOGLE*/
+/*body {
+  background: url(https://tse2.mm.bing.net/th?id=OIP.0mowaNEDAc2PhwQBjSHZrQHaHa&pid=Api&P=0&w=300&h=300);
+}*/
+
+/* 3.FOLDER  IMAGE */
+
+/* body { 
+  background: url("/Main HTML/project  1/pexels-photo-982612.jpeg");
+}*/
+
+/* 4.OTHER PROPERTIES */
+.divcontainer {
+  height: 200px;
+  width: 400px;
+  background: url("/Main CSS/PropertiesBACKGROUND/65146.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-color: rgb(189, 99, 99);
+}

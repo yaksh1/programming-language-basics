@@ -1,0 +1,33 @@
+/* HOVER */
+h1:hover {
+  color: purple;
+}
+
+/* LINK */
+
+/* before visiting */
+.youtube:link {
+  color: purple;
+}
+
+/* after visiting */
+.youtube:visited {
+  color: red;
+}
+
+/* CHILD(first,last,nth) */
+li:first-child {
+  color: teal;
+}
+
+li:last-child {
+  color: palevioletred;
+}
+
+li:nth-child(2) {
+  color: blue;
+}
+
+li:only-child {
+  color: rgb(162, 255, 0);
+}

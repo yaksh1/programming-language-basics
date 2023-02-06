@@ -1,0 +1,34 @@
+body {
+  background: radial-gradient(
+    circle,
+    rgba(0, 119, 182, 0.6),
+    rgba(0, 180, 216, 0.5),
+    rgb(144, 224, 239)
+  );
+}
+
+/* ABSOLUTE UNITS */
+
+/* 1. px */
+.image {
+  height: 200px;
+}
+
+/* 2. pt */
+.image2 {
+  height: 200pt;
+}
+
+/* 3. pc  */
+.image3 {
+  height: 50pc;
+}
+
+/* RELATIVE UNITS */
+
+/* 1. em  (increases the size of default font set)*/
+.p1 {
+  font-size: 2em;
+}
+
+/* 2. SEARCH VIEWPORT ON YT */

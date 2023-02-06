@@ -1,0 +1,19 @@
+/* ADJACENT SIBLING */
+h1 + a {
+  color: rgb(30, 245, 10);
+}
+
+/* GENERAL SIBLING */
+textarea ~ button {
+  color: rgb(60, 136, 187);
+}
+
+/* CHILD ADVANCED */
+ol > li {
+  color: gold;
+}
+
+/* DESCENDANT CHILD */
+ul li {
+  color: rgb(30, 245, 10);
+}
