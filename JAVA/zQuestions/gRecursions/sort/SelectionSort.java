@@ -1,4 +1,4 @@
-package zQuestions.gRecursions;
+package zQuestions.gRecursions.sort;
 
 import java.util.Arrays;
 

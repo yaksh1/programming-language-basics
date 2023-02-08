@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 public class SkipEle {
   public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class SkipEle {
 
   }
 
-  // Skip a charater and return it
+  // Skip a character and return it
   static String skipReturningString(String up) {
     if (up.isEmpty()) {
       return "";

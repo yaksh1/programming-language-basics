@@ -5,9 +5,10 @@ import java.util.ArrayList;
 //====================================================
 public class ASCII {
   public static void main(String[] args) {
-    System.out.println(ascii("","ab"));
+    System.out.println(ascii("", "ab"));
   }
   
+  // ascii recursion
   static ArrayList<String> ascii(String p, String up) {
     ArrayList<String> left = new ArrayList<>();
     ArrayList<String> right = new ArrayList<>();

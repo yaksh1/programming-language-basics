@@ -1,4 +1,4 @@
-package zQuestions.gRecursions;
+package zQuestions.gRecursions.sort;
 
 public class Rotated {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package zQuestions.gRecursions;
+package zQuestions.gRecursions.sort;
 
  // TO CHECK : if array is sorted or not sorted
 public class SortedArray {
