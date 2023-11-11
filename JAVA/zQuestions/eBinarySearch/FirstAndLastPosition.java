@@ -11,8 +11,12 @@ public class FirstAndLastPosition {
 
   static int[] searchRange(int[] nums, int target) {
     int[] ans = { -1, -1 };
+    // to find the left most occurance of the target we do mid -1
     ans[0] = find(nums, target, true);
-    ans[1] = find(nums, target, false);
+    // to find the right most occurance of the target we do mid +1
+    if (ans[0] != -1) {
+      ans[1] = find(nums, target, false);
+    }
 
     return ans;
   }

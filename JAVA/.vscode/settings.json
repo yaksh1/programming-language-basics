@@ -2,5 +2,6 @@
   "editor.tokenColorCustomizations": {
     "comments": "#7e7e7e"
   },
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "java.debug.settings.onBuildFailureProceed": true
 }

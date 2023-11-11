@@ -1,21 +1,32 @@
+import java.util.*;
 
-
-public class Solution {
-
-    static int a = 10;
-    static int b;
-
-    static {
-        System.out.println("I am in block");
-        b = a + 10;
-    }
-
+class Solution {
     public static void main(String[] args) {
+        System.out.println(minInsertions("(()))"));
+    }
+    public static int minInsertions(String s) {
         
-        System.out.println(a);
-        System.out.println(b);
+        Stack<Character> stack = new Stack<>();
+        int count=0;
+        for(int i = 0;i<s.length();i++){
+            if(s.charAt(i) == '('){
+                stack.push(s.charAt(i));
+            }else{
+                if(s.charAt(i)==')'){
+                    if(i+1<s.length()&&s.charAt(i+1)==')'){
+                        i++;
+                        if(stack.isEmpty()||stack.pop()!='('){
+                        count++;
+                        }
+                    }else{
+                    count++;
 
-        b += 10;
-        System.out.println(b);
+                    }
+                }   
+            }
+        } 
+            
+        return stack.size()+count;
     }
 }
+

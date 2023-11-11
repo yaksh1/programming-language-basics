@@ -9,7 +9,11 @@ public class SkipEle {
     skipVoid("", "baacdacf");
 
     //skipping string
-    skipWord("","bcapplezgh");
+    skipWord("", "bcapplezgh");
+    
+    //skkiping string on condition (skip app when not apple)
+    skipWordOnCondition("","baapplevhgj");
+    skipWordOnCondition("","baccappff");
 
   }
 
@@ -51,10 +55,23 @@ public class SkipEle {
       return;
     }
 
-    if (up.startsWith("apple" )) {
+    if (up.startsWith("apple")) {
       skipWord(p, up.substring(5));
     } else {
       skipWord(p + up.charAt(0), up.substring(1));
+    }
+  }
+  
+  static void skipWordOnCondition(String p, String up) {
+    if (up.isEmpty()) {
+      System.out.println(p);
+      return;
+    }
+
+    if (up.startsWith("app") && !up.startsWith("apple")) {
+      skipWordOnCondition(p, up.substring(3));
+    } else {
+      skipWordOnCondition(p + up.charAt(0), up.substring(1));
     }
   }
 
